@@ -21,3 +21,12 @@ Then add **hubot-shibame** to your `external-scripts.json`:
   "hubot-shibame"
 ]
 ```
+
+## Demo
+
+```shell
+Bob> bob shiba me
+Bob> https://78.media.tumblr.com/da50731378af6892417dc46024913590/tumblr_oywxrf4olM1tsgahwo1_1280.jpg
+```
+
+![demo](https://github.com/Efesto/hubot-shibame/raw/master/screencast%202018-03-17%2016-16-38.gif)
