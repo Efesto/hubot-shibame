@@ -1,5 +1,5 @@
 // Description:
-//   Shibame is the hubot script for improving quality of your life with shibas pics
+//   Shibame is the hubot script for improving the quality of your life with shibas pics
 // Dependencies:
 //   None
 // Configuration:
@@ -9,7 +9,7 @@
 
 module.exports = (robot) => {
   robot.respond(/shiba me/i, msg => {
-    msg.http("https://shiba-me.herokuapp.com/random")
+    msg.http("http://shiba-me.herokuapp.com/random")
       .get((err, res, body) => {
         msg.send(JSON.parse(body).shiba);
       }
