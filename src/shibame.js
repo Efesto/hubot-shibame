@@ -10,7 +10,7 @@
 module.exports = (robot) => {
   robot.respond(/shiba me/i, msg => {
     msg.http("http://shiba-me.herokuapp.com/random")
-      .get((err, res, body) => {
+      .get()((err, res, body) => {
         msg.send(JSON.parse(body).shiba);
       }
     )
