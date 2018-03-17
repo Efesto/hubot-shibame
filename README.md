@@ -1,4 +1,5 @@
 # hubot-shibame
+[![CircleCI](https://circleci.com/gh/Efesto/hubot-shibame.svg?style=svg)](https://circleci.com/gh/Efesto/hubot-shibame)
 
 Shibame is the hubot script for improving quality of your life with shibas pics
 

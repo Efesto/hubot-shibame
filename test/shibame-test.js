@@ -4,7 +4,7 @@ const chai = require('chai').use(require('sinon-chai'));
 const expect = chai.expect
 
 describe('shibame', () => {
-  let robot;
+  let robot = null;
 
   beforeEach(() => {
     robot = {
