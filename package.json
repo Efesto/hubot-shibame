@@ -1,0 +1,34 @@
+{
+  "name": "hubot-shibame",
+  "description": "Shibame is the hubot script for improving quality of your life with shibas pics",
+  "version": "0.1.0",
+  "author": "Marco 'Efesto' Polita <polita.marco@gmail.com>",
+  "license": "MIT",
+  "keywords": "hubot, hubot-scripts, shiba inu, shiba, javascript, js, fun",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hubot-scripts/hubot-shibame.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hubot-scripts/hubot-shibame/issues"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "hubot": ">=2 <10 || 0.0.0-development"
+  },
+  "devDependencies": {
+    "hubot": "2.x",
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  }
+}
