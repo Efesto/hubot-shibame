@@ -7,10 +7,10 @@
   "keywords": "hubot, hubot-scripts, shiba inu, shiba, javascript, js, fun",
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-shibame.git"
+    "url": "git://github.com/Efesto/hubot-shibame.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-shibame/issues"
+    "url": "https://github.com/Efesto/hubot-shibame/issues"
   },
   "dependencies": {},
   "peerDependencies": {
